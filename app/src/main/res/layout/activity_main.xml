@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical"
+    tools:context="com.redcarpet.AatmaSanchar.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aatmanirbhar Sanchar App"
+        android:layout_marginTop="46dp"
+        android:gravity="center"
+        android:fontFamily="@font/dulkanyca"
+        android:textSize="40dp"
+
+      />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="291dp"
+        app:srcCompat="@drawable/final_logo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="23dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#2C5795"
+        android:textColor="#F7C000"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:text="OPEN Aatmanirbhar-Sanchar"
+        android:fontFamily="@font/slenco"
+        ></Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="23dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#2C5795"
+        android:textColor="#F7C000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="@font/slenco"
+        android:text="Credits"
+        ></Button>
+
+</LinearLayout>
